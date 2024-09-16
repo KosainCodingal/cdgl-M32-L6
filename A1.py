@@ -8,7 +8,6 @@ def hanoi(n, da, db, dc, logger):
     hanoi(n-1, dc, db, da, logger)
 
     
-
 n = 6
 logger = ["-- Solver log --"]
 hanoi(n, 'diskA', 'diskB', 'diskC', logger)
